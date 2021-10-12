@@ -1,0 +1,7 @@
+custom HTML tag
+
+<script>
+  fbq('trackCustom', 'customEventName');
+</script>
+
+customEventName can be modified
