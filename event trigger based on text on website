@@ -1,0 +1,16 @@
+variable:
+  new user-defined
+  custom javascript
+  
+function () {
+var content = document.body.innerText;
+var query="queryinput";
+if (content.search(query) > -1 ) {
+ return true;
+} else {
+ return false;
+}
+}
+
+DOM-ready page view trigger
+some DOM elements: input variable
